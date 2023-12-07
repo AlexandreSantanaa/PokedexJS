@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +10,28 @@
 
     <body>
         <main>
-            <img src="img/fe61dc2b7ef08a538b906eced7fa5cb5.gif" alt="" class="pokemon_img">
+            <img src="" alt="pokemon" class="pokemon_img">
             
             <h1 class="pokemon_data">
-                <span class="pokemon-number">1</span>
+                <span class="pokemon_number"></span>
                 -
-                <span class="pokemon_name">Pikachu</span>
+                <span class="pokemon_name"></span>
             </h1>
 
-            <form action="">
+            <form class="form">
                 <input type="search" 
-                class="input_search">
+                class="input_search"
+                placeholder="Nome ou Número"
+                required>
             </form>
+
+            <div class="buttons">
+                <button class="button btn-prev">Prev &lt;</button>
+                <button class="button btn-next">Next &gt;</button>
+            </div>
             <img src="./img/pokedex.png" alt="Pokedex" class="pokedex">
         </main>
+
+        <script src="./javaScript/Script.js"></script>
     </body>
 </html>
